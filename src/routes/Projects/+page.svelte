@@ -8,6 +8,13 @@
 		</div>
 	</div>
 	<div class="window-body">
-		Here's a list of projects
+		<p>Here's a list of projects</p> 
+        <select>
+            <option>5 - Incredible!</option>
+            <option>4 - Great!</option>
+            <option>3 - Pretty good</option>
+            <option>2 - Not so great</option>
+            <option>1 - Unfortunate</option>
+          </select>
 	</div>
 </div>

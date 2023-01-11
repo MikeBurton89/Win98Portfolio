@@ -55,6 +55,7 @@
 				</details>
 			</li>
 			<li><a href="SpecialThanks">Special Thanks</a> </li>
+            <li><a href="About">About</a> </li>
 		</ul>
 	</div>
 	<div class="main-title">
