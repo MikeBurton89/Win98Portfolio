@@ -1,14 +1,21 @@
-<script>
+<script lang='ts'>
 	import { createEventDispatcher, onDestroy } from 'svelte';
 
 	const dispatch = createEventDispatcher();
 	const close = () => dispatch('close');
 
+
 	let modal;
+
+    const escHandler = (event: KeyboardEvent) => {
+		if (event.key === 'ESC') {
+			close()
+		}
+	};
 </script>
 
 
-<div class="modal-background" on:click={close}></div>
+<div class="modal-background" on:keydown={escHandler} on:click={close}></div>
 
 <div class="modal" role="dialog" aria-modal="true" bind:this={modal}>
 	<slot></slot>
@@ -39,7 +46,5 @@
 		
 	}
 
-	button {
-		display: block;
-	}
+	
 </style>

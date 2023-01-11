@@ -70,7 +70,7 @@
 	.page-container {
 		grid-area: 3 / 4 / 7 / 13;
 	}
-	.footer-area {
+	/* .footer-area {
 		grid-area: 5 / 1 / 7 / 4;
-	}
+	} */
 </style>

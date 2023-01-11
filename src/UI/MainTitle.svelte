@@ -12,7 +12,7 @@
         <div class="status-bar">
             <p class="status-bar-field">
                 Press F1 or click
-                <a target="_blank" href="https://github.com/MikeBurton89">Here</a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/MikeBurton89">Here</a>
                 to see my GitHub
             </p>
         </div>
